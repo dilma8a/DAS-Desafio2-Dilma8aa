@@ -1,0 +1,26 @@
+@model DAS_Desafio2_Dilma8a.Models.Materia
+
+@{
+    ViewData["Title"] = "Editar Materia";
+}
+
+<h2>Editar Materia</h2>
+
+<form asp-action="Edit" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <input type="hidden" asp-for="MateriaId" />
+    <div class="form-group">
+        <label asp-for="NombreMateria">Materia</label>
+        <input asp-for="NombreMateria" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Docente"></label>
+        <input asp-for="Docente" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

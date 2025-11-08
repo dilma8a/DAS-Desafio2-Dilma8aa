@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\models\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:models\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|c:\\users\\dilma\\documents\\github\\das-desafio2-dilma8a\\das-desafio2-dilma8a.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7044780B-23A8-4CEC-8F33-0BA864C60048}|DAS-Desafio2-Dilma8a.csproj|solutionrelative:das-desafio2-dilma8a.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dee22b65-9761-4a26-8fb2-759b971d6dfc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T00:51:46.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Models\\Materia.cs",
+              "RelativeDocumentMoniker": "Models\\Materia.cs",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Models\\Materia.cs",
+              "RelativeToolTip": "Models\\Materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T22:27:11.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-07T21:33:35.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Expediente.cs",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Models\\Expediente.cs",
+              "RelativeDocumentMoniker": "Models\\Expediente.cs",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Models\\Expediente.cs",
+              "RelativeToolTip": "Models\\Expediente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T21:33:00.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T21:25:03.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T21:21:21.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DAS-Desafio2-Dilma8a.csproj",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\DAS-Desafio2-Dilma8a.csproj",
+              "RelativeDocumentMoniker": "DAS-Desafio2-Dilma8a.csproj",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\DAS-Desafio2-Dilma8a.csproj",
+              "RelativeToolTip": "DAS-Desafio2-Dilma8a.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-07T21:08:14.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T16:21:21.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\DILMA\\Documents\\GitHub\\DAS-Desafio2-Dilma8a\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T16:21:17.821Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

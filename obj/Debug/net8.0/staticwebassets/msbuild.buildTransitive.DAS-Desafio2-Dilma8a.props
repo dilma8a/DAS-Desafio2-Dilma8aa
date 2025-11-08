@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DAS-Desafio2-Dilma8a.props" />
+</Project>

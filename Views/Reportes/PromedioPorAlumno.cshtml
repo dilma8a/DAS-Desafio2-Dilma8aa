@@ -1,0 +1,25 @@
+@model IEnumerable<DAS_Desafio2_Dilma8a.Controllers.PromedioAlumnoViewModel>
+
+@{
+    ViewData["Title"] = "Promedio por Alumno";
+}
+
+<h2>Promedio de Notas por Alumno</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Alumno</th>
+            <th>Promedio</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.NombreCompleto</td>
+            <td>@String.Format("{0:0.00}", item.Promedio)</td>
+        </tr>
+    }
+    </tbody>
+</table>

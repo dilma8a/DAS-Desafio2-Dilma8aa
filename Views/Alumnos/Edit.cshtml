@@ -1,0 +1,60 @@
+@model DAS_Desafio2_Dilma8a.Models.Alumno
+
+@{
+    ViewData["Title"] = "Editar Alumno";
+}
+
+<h2>Editar Alumno</h2>
+
+<form asp-action="Edit" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <input type="hidden" asp-for="AlumnoId" />
+    <div class="form-group">
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Apellido"></label>
+        <input asp-for="Apellido" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="FechaNacimiento"></label>
+        <input asp-for="FechaNacimiento" class="form-control" type="date" />
+        <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Grado"></label>
+        <input asp-for="Grado" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        (function () {
+            // Validación client-side: FechaNacimiento debe ser anterior a hoy
+            $(function () {
+                $('form[asp-action="Edit"]').on('submit', function (e) {
+                    var form = $(this);
+                    var input = form.find('input[name="FechaNacimiento"]');
+                    if (!input.length) return;
+                    var val = input.val();
+                    if (!val) return; // let required validator handle empty
+                    var selected = new Date(val);
+                    var today = new Date();
+                    today.setHours(0, 0, 0, 0);
+                    if (selected >= today) {
+                        e.preventDefault();
+                        var span = form.find('[data-valmsg-for="FechaNacimiento"]');
+                        span.text('La fecha de nacimiento debe ser anterior a la fecha de hoy.');
+                        input.addClass('input-validation-error');
+                        return false;
+                    }
+                    return true;
+                });
+            });
+        })();
+    </script>
+}

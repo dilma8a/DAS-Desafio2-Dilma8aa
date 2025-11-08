@@ -1,0 +1,39 @@
+@model IEnumerable<DAS_Desafio2_Dilma8a.Models.Alumno>
+
+@{
+    ViewData["Title"] = "Alumnos";
+}
+
+<h2>Alumnos</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Alumno</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Fecha Nac.</th>
+            <th>Grado</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Nombre</td>
+            <td>@item.Apellido</td>
+            <td>@item.FechaNacimiento.ToString("yyyy-MM-dd")</td>
+            <td>@item.Grado</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AlumnoId">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.AlumnoId">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.AlumnoId">Eliminar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+@model IEnumerable<DAS_Desafio2_Dilma8a.Models.Expediente>
+
+@{
+    ViewData["Title"] = "Expedientes";
+}
+
+<h2>Expedientes</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Expediente</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Alumno</th>
+            <th>Materia</th>
+            <th>Nota Final</th>
+            <th>Observaciones</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Alumno?.NombreCompleto</td>
+            <td>@item.Materia?.NombreMateria</td>
+            <td>@item.NotaFinal</td>
+            <td>@item.Observaciones</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ExpedienteId">Editar</a> |
+                <a asp-action="Delete" asp-route-id="@item.ExpedienteId">Eliminar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,36 @@
+@model DAS_Desafio2_Dilma8a.Models.Expediente
+
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Crear Expediente";
+}
+
+<h2>Crear Expediente</h2>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    @{ var alumnos = (IEnumerable<SelectListItem>)ViewData["AlumnoId"]; var materias = (IEnumerable<SelectListItem>)ViewData["MateriaId"]; }
+    <div class="form-group">
+        <label>Alumno</label>
+        <select asp-for="AlumnoId" asp-items="alumnos" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label>Materia</label>
+        <select asp-for="MateriaId" asp-items="materias" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="NotaFinal"></label>
+        <input asp-for="NotaFinal" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Observaciones"></label>
+        <textarea asp-for="Observaciones" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

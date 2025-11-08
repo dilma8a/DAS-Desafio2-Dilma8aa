@@ -1,0 +1,23 @@
+@model DAS_Desafio2_Dilma8a.Models.Materia
+
+@{
+    ViewData["Title"] = "Eliminar Materia";
+}
+
+<h2>Eliminar Materia</h2>
+
+<div>
+    <h4>¿Está seguro que desea eliminar esta materia?</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.NombreMateria</dd>
+        <dt class="col-sm-2">Docente</dt>
+        <dd class="col-sm-10">@Model.Docente</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="MateriaId" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
