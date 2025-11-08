@@ -6,8 +6,6 @@
     ViewData["Title"] = "Crear Expediente";
 }
 
-<h2>Crear Expediente</h2>
-
 <form asp-action="Create" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
     @{ var alumnos = (IEnumerable<SelectListItem>)ViewData["AlumnoId"]; var materias = (IEnumerable<SelectListItem>)ViewData["MateriaId"]; }

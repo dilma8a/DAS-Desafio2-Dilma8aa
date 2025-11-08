@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DAS-Desafio2-Dilma8a")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d56fd7fa79a6a630bc50eb3a727ba93f7a63d95b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DAS-Desafio2-Dilma8a")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DAS-Desafio2-Dilma8a")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

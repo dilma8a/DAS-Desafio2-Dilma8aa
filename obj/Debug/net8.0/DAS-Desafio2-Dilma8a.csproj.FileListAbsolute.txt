@@ -138,3 +138,4 @@ c:\Users\DILMA\Documents\GitHub\DAS-Desafio2-Dilma8a\bin\Debug\net8.0\runtimes\w
 c:\Users\DILMA\Documents\GitHub\DAS-Desafio2-Dilma8a\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 c:\Users\DILMA\Documents\GitHub\DAS-Desafio2-Dilma8a\obj\Debug\net8.0\DAS-Desa.B4FA274D.Up2Date
 C:\Users\DILMA\Documents\GitHub\DAS-Desafio2-Dilma8a\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\DILMA\Documents\GitHub\DAS-Desafio2-Dilma8a\obj\Debug\net8.0\DAS-Desafio2-Dilma8a.sourcelink.json
